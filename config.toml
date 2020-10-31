@@ -1,4 +1,112 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Odinei Alexandre"
 theme = "hello-friend-ng"
+
+[params]
+    dateform = "Jan 2, 2006"
+    dateformShort = "Jan 2"
+    dateformNum = "2006-01-02"
+    dateformNumTime = "2006-01-02 15:04"
+    disableReadOtherPosts = false
+    
+
+[logo]
+    logoText = "odinei"
+    # Enable sharing buttons, if you linke
+    enableSharingButtons = true
+
+[languages]
+    [languages.en]
+        title = "Odinei Alexandre"
+        subtitle = "Software Engineer"
+        homeSubtitle = "|{ Software Engineer } { Consultant }|"
+        homeSubtitle2 = "SAP | ABAP | Fiori | UI5"
+        keywords = ""
+        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+        readOtherPosts = "Read other posts"
+    
+    [[languages.en.params.social]]
+        name = "github"
+        url = "https://www.github.com/odinei"
+
+    [[languages.en.params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/odinei/"
+
+    [[languages.pt-br.params.social]]
+        name = "github"
+        url = "https://www.github.com/odinei"
+
+    [[languages.pt-br.params.social]]
+        name = "linkedin"
+        url = "https://www.linkedin.com/in/odinei/"
+
+    [languages.en.params.logo]
+        logoText = "out->write('Home')"
+        logoHomeLink = "/en/"
+    
+    [[languages.en.menu.main]]
+        identifier = "1"
+        name = "Blog"
+        url = "/posts"
+        weight = 1
+    [[languages.en.menu.main]]
+        identifier = "2"
+        name = "Portfolio"
+        url = "/portfolio"
+        weight = 2
+    [[languages.en.menu.main]]
+        identifier = "3"
+        name = "About me"
+        url = "/about"
+        weight = 3
+    [[languages.en.menu.main]]
+        identifier = "4"
+        name = "pt"
+        url = "/pt-br/"
+        weight = 4
+
+    [languages.pt-br]
+        title = "Odinei Alexandre"
+        subtitle = "Software Engineer"
+        homeSubtitle = "|{ Software Engineer } { Consultant }|"
+        keywords = ""
+        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+        readOtherPosts = "Read other posts"
+
+    [languages.pt-br.params.logo]
+        logoText = "out->write('Home')"
+        logoHomeLink = "/pt-br/"
+
+    [[languages.pt-br.menu.main]]
+        identifier = "1"
+        name = "Blog"
+        url = "/posts"  
+        weight = 1  
+
+    [[languages.pt-br.menu.main]]
+        identifier = "2"
+        name = "Portfolio"
+        url = "/portfolio"
+        weight = 2
+
+    [[languages.pt-br.menu.main]]
+        identifier = "3"
+        name = "About me"
+        url = "/about"
+        weight = 3
+
+    [[languages.pt-br.menu.main]]
+        identifier = "4"
+        name = "en"
+        url = "../en"
+        weight = 4
+        
+[taxonomies]
+    category = "blog"
+    tag = "tags"
+    series = "series"
+
+
+
