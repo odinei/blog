@@ -3,13 +3,20 @@ languageCode = "en-us"
 title = "Odinei Alexandre"
 theme = "hello-friend-ng"
 
+
 [params]
     dateform = "Jan 2, 2006"
     dateformShort = "Jan 2"
     dateformNum = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04"
     disableReadOtherPosts = false
-    
+    footerLeft = ""
+    footerRight = "All rights reserved"
+    copyright = "All rights reserved"
+
+[author]
+    name = "Odinei Alexandre"    
+    copyright = "All rights reserved"
 
 [logo]
     logoText = "odinei"
