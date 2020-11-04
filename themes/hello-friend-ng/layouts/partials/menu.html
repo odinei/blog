@@ -5,11 +5,11 @@
             <li>
                 {{- if (eq .Name "pt") -}}
                     <a href="{{ .URL | absLangURL }}">
-                        <span class="flag flag-icon flag-icon-br flag-icon-squared">k</span>
+                        <span class="flag flag-icon flag-icon-br flag-icon-squared"></span>
                     </a>
                 {{- else if (eq .Name "en") -}}
                 <a href="{{ .URL | absLangURL }}">
-                    <span class="flag flag-icon flag-icon-gb flag-icon-squared">k</span>
+                    <span class="flag flag-icon flag-icon-gb flag-icon-squared"></span>
                 </a>
                 {{ else }}
                     <a href="{{ .URL | absLangURL }}">{{ .Name }}</a>

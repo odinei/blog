@@ -33,6 +33,15 @@ theme = "hello-friend-ng"
         copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
         readOtherPosts = "Read other posts"
     
+    [languages.pt-br]
+        title = "Odinei Alexandre"
+        subtitle = "Software Engineer"
+        homeSubtitle = "|{ Software Engineer } { Consultant }|"
+        homeSubtitle2 = "SAP | ABAP | Fiori | UI5"
+        keywords = ""
+        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+        readOtherPosts = "Read other posts"
+
     [[languages.en.params.social]]
         name = "github"
         url = "https://www.github.com/odinei"
@@ -73,14 +82,6 @@ theme = "hello-friend-ng"
         name = "pt"
         url = "/pt-br/"
         weight = 4
-
-    [languages.pt-br]
-        title = "Odinei Alexandre"
-        subtitle = "Software Engineer"
-        homeSubtitle = "|{ Software Engineer } { Consultant }|"
-        keywords = ""
-        copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-        readOtherPosts = "Read other posts"
 
     [languages.pt-br.params.logo]
         logoText = "out->write('Home')"
