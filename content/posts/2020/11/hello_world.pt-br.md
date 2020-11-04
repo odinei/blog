@@ -1,7 +1,7 @@
 +++
-title =  "Hello World! About this website"
+title =  "Hello World!"
 date =  2020-11-03T08:47:11+01:00
-description = "teste"
+description = ""
 author = "Odinei Alexandre"
 +++
 

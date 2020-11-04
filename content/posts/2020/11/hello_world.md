@@ -1,7 +1,7 @@
 +++
-title =  "Hello World! About this website"
+title =  "Hello World!"
 date =  2020-11-03T08:47:11+01:00
-description = "teste"
+description = ""
 author = "Odinei Alexandre"
 +++
 
@@ -10,6 +10,7 @@ author = "Odinei Alexandre"
 I always wanted to have a website or blog, to post information about my learning journey through my Software Developer carrer, but I always struggled to choose the right technology stack.
 
 During this process, I've played with:
+
 * Wordpress + PHP + Mysql
 * Joomla + PHP + Mysql
 * BlogEngine + .NET + SQL Server
