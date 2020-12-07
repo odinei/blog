@@ -47,6 +47,7 @@ sudo wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -d -iwlan0
 ```
 
 * Fix the errors and restart your Raspberry
+
 ```
 sudo reboot
 ```
